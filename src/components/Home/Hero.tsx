@@ -1,8 +1,10 @@
 import React from "react";
+import Header from "../Header/Header";
 
 const Hero = () => {
   return (
     <div id="hero">
+      <Header />
       <section className="flex justify-center items-center md:p-[289px] py-[100px] px-[50px]">
         <div className="text-center text-white">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4">

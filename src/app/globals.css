@@ -21,3 +21,9 @@ body{
   background-position: contain;
   background-size: cover;
 }
+
+@media screen and (max-width:500px) {
+  body{
+    width: calc(100vw - 20px);
+  }
+}
