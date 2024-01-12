@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: calc(100vw - 50px );
+  margin: 0 auto;
+  /* max-width: 1400px; */
+}
+
+#hero{
+  background: url(../../public/images/Coffee-home.png) no-repeat;
+  background-position: contain;
+  background-size: cover;
+}
