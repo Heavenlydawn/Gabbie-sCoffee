@@ -13,7 +13,7 @@
 body{
   width: calc(100vw - 50px );
   margin: 0 auto;
-  /* max-width: 1400px; */
+  max-width: 1400px;
 }
 
 #hero{
@@ -21,7 +21,11 @@ body{
   background-position: contain;
   background-size: cover;
 }
-
+#CoffeeLang{
+  background: url(../../public/images/coffeee-bg.png) no-repeat;
+  background-position: contain;
+  background-size:contain;
+}
 @media screen and (max-width:500px) {
   body{
     width: calc(100vw - 20px);
