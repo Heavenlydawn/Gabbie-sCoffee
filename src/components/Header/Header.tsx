@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 // import Logo from "../../../public/images/coffee-icon.png"
-import Logo from "../../../public/images/logo.png"
+import Logo from "../../../public/images/logo.png";
 
 const Header: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -20,7 +20,7 @@ const Header: React.FC = () => {
             <Image src={Logo} alt="Logo" width={100} height={100} />
           </div>
           <div className="hidden md:flex gap-9 text-base font-medium">
-          <Link href="/home">
+            <Link href="/">
               <p className="text-lg">Home</p>
             </Link>
             <Link href="/explore">
@@ -33,7 +33,9 @@ const Header: React.FC = () => {
 
           {/* Mobile Menu Button */}
           <div className="md:hidden">
-            <button onClick={toggleMobileMenu} className="text-5xl px-4">☰</button>
+            <button onClick={toggleMobileMenu} className="text-5xl px-4">
+              ☰
+            </button>
           </div>
         </nav>
 
@@ -44,10 +46,10 @@ const Header: React.FC = () => {
           } absolute top-0 left-0 h-screen w-2/3 bg-[#252525] z-50 transform transition-transform ease-in-out duration-300`}
         >
           <div className="flex flex-col items-center justify-center h-full gap-6 text-white">
-          <div>
-            <Image src={Logo} alt="Logo" width={100} height={100} />
-          </div>
-            <Link href="/home">
+            <div>
+              <Image src={Logo} alt="Logo" width={100} height={100} />
+            </div>
+            <Link href="/">
               <p className="text-lg">Home</p>
             </Link>
             <Link href="/explore">
