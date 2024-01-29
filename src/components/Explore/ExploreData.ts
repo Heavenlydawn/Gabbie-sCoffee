@@ -1,7 +1,6 @@
-
 export interface ExploreItem {
   id: number;
-  image:any;
+  image: any;
   name: string;
   price: number;
   description: string;
@@ -10,14 +9,15 @@ export interface ExploreItem {
 const ExploreData: ExploreItem[] = [
   {
     id: 1,
-    image:"explore1.png",
+    image: "explore1.png",
     name: "Cappuccino",
     price: 8.5,
-    description: "This is a cappuccino made with real espresso and steamed",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa, fermentum id id vitae, integer fermentum tellus. In vitae id nisl quis ornare diam commodo in vel dolor.",
   },
   {
     id: 2,
-    image:"explore2.png",
+    image: "explore2.png",
     name: "Mocha",
     price: 9.2,
     description:
@@ -25,14 +25,15 @@ const ExploreData: ExploreItem[] = [
   },
   {
     id: 3,
-    image:"explore3.png",
+    image: "explore3.png",
     name: "Latte",
     price: 11.4,
-    description: "This is a cappuccino made with real espresso and steamed",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa, fermentum id id vitae, integer fermentum tellus. In vitae id nisl quis ornare diam commodo in vel dolor.",
   },
   {
     id: 4,
-    image:"explore4.png",
+    image: "explore4.png",
     name: "Cold Java",
     price: 6.4,
     description:
