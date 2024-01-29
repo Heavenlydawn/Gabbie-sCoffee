@@ -5,15 +5,15 @@ import Line from "../../../public/images/LineDark.png";
 const ExploreCoffee = () => {
   return (
     <div className="bg-[#FFFADA] p-12">
-      <div className="flex justify-around items-center">
+      <div className="flex justify-around items-center md:flex-row flex-col">
         <Image src={Line} alt="Line" />
-        <h1 className="text-4xl text-center text-[#C08267] font-bold">
+        <h1 className="md:text-4xl text-2xl text-center text-[#C08267] font-bold">
           Explore The Coffee World
         </h1>
         <Image src={Line} alt="Line" />
       </div>
 
-      <div className="flex justify-around flex-col md:flex-row text-white my-12">
+      <div className="grid grid-cols-1 md:grid-cols-5 items-center justify-items-center gap-4 text-white my-12">
         {ExploreData.map((item: ExploreItem) => (
           <div key={item.id} className="w-[260px] p-8 bg-[#C08267] h-[450px] rounded-xl">
             <Image
