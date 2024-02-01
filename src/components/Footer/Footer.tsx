@@ -51,7 +51,7 @@ const Footer = () => {
       </div>
 
       <div className="border-t-4 border-[#FFFADA] flex justify-center items-center py-4 text-xl">
-        <p> &#169; Riellah's Cafe All Rights Reserved</p>
+        <p> &copy; Riellah's Cafe All Rights Reserved</p>
       </div>
     </footer>
   );
