@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../Header/Header";
-
+import Link from "next/link";
 const Hero = () => {
   return (
     <div id="hero">
@@ -16,7 +16,7 @@ const Hero = () => {
 
           <div className="mt-8">
             <button className="w-full sm:w-[250px] h-[55px] bg-[#A0583C] text-white text-xl sm:text-2xl rounded-3xl">
-              Explore Us
+            <Link href="/explore"> Explore Us</Link>
             </button>
           </div>
         </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Coffee from "../../../public/images/Coffee-1.png";
+import Link from "next/link";
 
 const SubHero = () => {
   return (
@@ -13,13 +14,12 @@ const SubHero = () => {
             <h2>Your Energy</h2>
           </div>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl mt-4 sm:w-[500px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus
-            in libero risus semper habitant arcu eget. Et integer facilisi
-            eget.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in
+            libero risus semper habitant arcu eget. Et integer facilisi eget.
           </p>
           <div className="mt-6 sm:mt-9">
             <button className="w-full sm:w-[200px] h-[55px] bg-[#ce704a] text-white text-xl rounded-3xl">
-              Explore Us
+              <Link href="/explore"> Explore Us</Link>
             </button>
           </div>
         </div>

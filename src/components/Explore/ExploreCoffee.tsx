@@ -15,7 +15,7 @@ const ExploreCoffee = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-5 items-center justify-items-center gap-4 text-white my-12">
         {ExploreData.map((item: ExploreItem) => (
-          <div key={item.id} className=" w-[300px] p-8 bg-[#C08267] rounded-xl">
+          <div key={item.id} className=" w-[300px] p-8 bg-[#363032] rounded-xl hover:bg-[#463a3eb5] ">
             <Image
               src={`/images/${item.image}`}
               alt={`${item.name}-Image`}
@@ -29,7 +29,7 @@ const ExploreCoffee = () => {
             <div className="flex items-center justify-between ">
               <p className="text-2xl font-bold">Price: ${item.price}</p>
 
-              <button className="bg-[#A0583C] rounded-xl text-2xl py-4 px-2 cursor-pointer">Order Now!</button>
+              <button className="bg-[#683825] rounded-xl text-2xl py-4 px-2 cursor-pointer font-bold hover:bg-[#68382570]">Order Now!</button>
             </div>
           </div>
         ))}

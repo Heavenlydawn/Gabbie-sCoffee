@@ -7,7 +7,7 @@ import Twitter from "../../../public/images/twitter.png";
 import Pinterest from "../../../public/images/pinterest.png";
 const Footer = () => {
   return (
-    <footer className="bg-[#C08267] text-white py-8 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32">
+    <footer className="bg-[#363032] text-white py-8 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32">
       <div className="flex flex-col justify-between items-center sm:flex-row p-4 sm:p-8">
         <Image src={Line} alt="Line" />
         <h3 className="text-2xl text-[#FFFADA]">Get In Touch With Us</h3>

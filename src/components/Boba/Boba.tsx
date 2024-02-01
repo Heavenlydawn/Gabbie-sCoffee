@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 import BobaVibe from "../../../public/images/bobavida-hero.png";
 import BobaIllustration from "../../../public/images/boba-illustration.png";
-
 import BobaGallery from "./BobaGallery";
+import Link from "next/link";
 
 const Boba = () => {
   return (
@@ -18,7 +18,7 @@ const Boba = () => {
           </p>
           <div>
             <button className="text-xl text-white bg-[#271908] rounded-[40px] px-10 py-6">
-              Browse Menu
+              <Link href="/explore"> Browse Menu</Link>
             </button>
           </div>
         </div>
